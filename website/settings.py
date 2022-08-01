@@ -62,15 +62,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'website.wsgi.application'
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'migration_db',
-        'USER': 'postgres',
-        'PASSWORD': '1243'
-    }
-}
-
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
 
